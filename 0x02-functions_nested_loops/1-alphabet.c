@@ -2,15 +2,19 @@
 
 /**
  * main - check the code
- * print_alphabet-print alphabet in lowercase, followed by a new line.
+ * print_alphabet - print alphabet lowercase
+ *
+ * Return: Always 0 (success)
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-char letter;
+char alphabet;
 
-for (letter = 'a'; letter <= 'z'; letter++)
-_putchar('letter')
-_putchar('\n')
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
+}
 
-return (0)
+_putchar(\n);
+
 }
