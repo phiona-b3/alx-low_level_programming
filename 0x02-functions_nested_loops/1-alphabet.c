@@ -2,13 +2,7 @@
 
 /**
  * main - check the code
+ *print_alphabet-print alphabet lowercase
  *
- * Return: Always 0
+ * Return: Always 0.
  */
-int main(void)
-{
- print_alphabet();
-_putchar('print alphabet lowercase');
-
-return (0);
-}
