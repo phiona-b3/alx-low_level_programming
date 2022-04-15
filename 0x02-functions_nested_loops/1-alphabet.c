@@ -2,20 +2,19 @@
 
 /**
  * main - check the code
- * print_alphabet - print alphabet lowercase
  *
  * Return: Always 0 (success)
  */
 
-void print_alphabet(void)
+int main(void)
 {
-char alphabet;
+char letter;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-_putchar(alphabet);
+_putchar(letter);
 }
 
-_putchar('\n');
+_putchar(i'\n');
 
 }
