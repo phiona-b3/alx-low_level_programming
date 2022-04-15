@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-void main(void)
+void alphabet(void)
 {
 char alphabet;
 
