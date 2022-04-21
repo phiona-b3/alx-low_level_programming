@@ -1,5 +1,6 @@
 #include "main.h"
- /**
+ 
+/**
   * is_numerical - check if it is a digit
   * @n: number
   * Return: if is a number, return 1, else return 0
@@ -38,7 +39,7 @@ sign *= -1;
 
 }
 
-return (number * sign);
+return (number *sign);
 
 }
 
