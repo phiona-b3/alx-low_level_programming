@@ -11,7 +11,7 @@ return (n >= '0' && n <= '9');
 }
 
 /**
- * _atoi - convert a string to an integer
+ *_atoi - convert a string to an integer
  * @s: string
  * Return: return num
  */
