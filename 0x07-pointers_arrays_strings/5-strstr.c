@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strstr - function that locates a substring
- * @haystack: main string to be examined
+ * _strstr - first occurrence of the substring needle in the string haystack
+ * @haystack: main str to be examined
  * @needle: searched in haystack
  * Return: return 0
  */
@@ -21,7 +21,7 @@ while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 haystack++;
 str2++;
 }
-if (str2 = '\0')
+if (*str2 == '\0')
 {
 return (str1);
 haystack = str1 + 1;
