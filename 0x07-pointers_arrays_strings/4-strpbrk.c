@@ -24,7 +24,7 @@ return (s);
 j++;
 }
 
-s+++;
+s++;
 }
 return (0);
 
