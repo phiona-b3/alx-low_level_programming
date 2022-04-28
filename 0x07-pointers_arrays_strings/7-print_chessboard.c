@@ -5,7 +5,6 @@
  * @a: 2d array of chars
  * Return: Void
  */
-
 void print_chessboard(char (*a)[8])
 {
 
