@@ -22,7 +22,7 @@ return (1 + _strlen_recursion(++s));
  * Return: boolena
  */
 
-int p1(char *s, int l);
+int _palindrome(char *s, int l);
 {
 if (l < 1)
 {
