@@ -2,8 +2,8 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @n: The integer to be computed
- * 
+ * @n: the integer to be computed
+ *
  * Return: The absolute value of an integer
  */
 
@@ -14,4 +14,3 @@ return (n);
 else
 return (-n);
 }
-
