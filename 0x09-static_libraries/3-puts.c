@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -16,7 +17,7 @@ c =  str;
 
 for (m = 0; c[m]; m++)
 {
-_putchar (c[m]);
+putchar (c[m]);
 }
-_putchar('\n');
+putchar('\n');
 }
