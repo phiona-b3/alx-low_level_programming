@@ -23,5 +23,5 @@ sum += va_arg(valist, int);
 
 va_end(valist);
 
-returni (sum);
+return (sum);
 }
