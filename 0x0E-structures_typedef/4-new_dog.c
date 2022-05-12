@@ -37,11 +37,11 @@ return (ptr);
 }
 
 /**
- * new_dog - creates a new dog
+ * new_dog - creates a new dog variable
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- * Rturn: pointer to new dog variable
+ * Return: pointer to new dog variable
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
