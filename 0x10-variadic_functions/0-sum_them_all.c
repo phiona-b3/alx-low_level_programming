@@ -19,9 +19,9 @@ return (0);
 va_start(valist, n);
 
 for (i = 0; i < 0; i++)
-sum += var_arg(valist, int);
+sum += va_arg(valist, int);
 
 va_end(valist);
 
-return (sum);
+returni (sum);
 }
