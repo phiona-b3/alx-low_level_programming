@@ -1,8 +1,8 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - function that selects the correct function to perform the operation
- * asked by the user
+ * get_op_func - function that selects the correct function
+ * to perform the operation asked by the user
  * @s: the operator given by the user
  *
  * Return: returns a pointer to the function that corresponds
@@ -12,7 +12,7 @@ int (*get_op_func(char *s))(int, int)
 {
 op_t ops[] = {
 {"+", op_add},
-{"-", op-sub},
+{"-", op_sub},
 {"*", op_mul},
 {"/", op_div},
 {"%", op_mod},
