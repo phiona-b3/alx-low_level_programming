@@ -18,7 +18,7 @@ return (NULL);
 
 new->str = strdup(str);
 
-for (str = 0; str[nchar]; nchar++)
+for (nchar = 0; str[nchar]; nchar++)
 ;
 
 new->len = nchar;
