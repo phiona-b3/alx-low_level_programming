@@ -25,14 +25,14 @@ return (1);
 
 while (i < index - 1)
 {
-if (!temp || !(temp->next)
+if (!temp || !(temp->next))
 return (-1);
 temp = temp->next;
 i++;
 }
 
-currrent = temp->next;
-temp->next =current->next;
+current = temp->next;
+temp->next = current->next;
 free(current);
 
 return (1);
