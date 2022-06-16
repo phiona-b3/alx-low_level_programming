@@ -1,3 +1,7 @@
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "main.h"
 /**
  * print_most_numbers - print numbers
@@ -14,10 +18,10 @@ while (i < 10)
 {
 if (i != 2 && i != 4)
 {
-_putchar (i + '0');
+putchar (i + '0');
 }
 i++;
 }
 
-_putchar ('\n');
+putchar ('\n');
 }
