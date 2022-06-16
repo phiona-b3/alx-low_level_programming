@@ -30,9 +30,6 @@ else if (i % 5 == 0)
 {
 if (i < j)
 printf("Buzz ");
-
-else
-printf("Buzz");
 }
 
 else
@@ -41,6 +38,7 @@ printf("%i ", i);
 }
 
 i++;
+
 }
 printf("\n");
 return (0);
