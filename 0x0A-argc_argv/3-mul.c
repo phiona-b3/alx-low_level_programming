@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -14,7 +15,9 @@ int a;
 int b;
 if (argc == 3)
 {
-printf("%d\n", a * b);
+a = atoi(argv[1]); /*converts string to integer */
+b = atoi(argv[2]);
+printf("%d\n", a *b);
 return (0);
 }
 
