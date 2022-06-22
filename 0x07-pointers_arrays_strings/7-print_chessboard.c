@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -16,10 +19,10 @@ while (i < 8)
 j = 0;
 while (j < 8)
 {
-_putchar (a[i][j]);
+putchar (a[i][j]);
 j++;
 }
-_putchar ('\n');
+putchar ('\n');
 i++;
 }
 
