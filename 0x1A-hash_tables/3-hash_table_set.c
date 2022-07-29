@@ -24,9 +24,10 @@ if (!node)
 node = new_node(NULL);
 if (node->key)
 {
-ht->array[idx] = update_node(node, key, str);
+iht->array[idx] = update_node(node, key, str);
 return (1);
-node->key = strdup(key)
+}
+node->key = strdup(key);
 node->value = str;
 node->next = NULL;
 ht->array[idx] = node;
