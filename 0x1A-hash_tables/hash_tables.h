@@ -44,4 +44,5 @@ void hash_table_delete(hash_table_t *ht);
 
 hash_node_t *update_node(hash_node_t *node, const char *key, char *value);
 hash_node_t *new_node(hash_node_t *);
+
 #endif
