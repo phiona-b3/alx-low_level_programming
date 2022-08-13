@@ -9,6 +9,7 @@
  */
 void print_array(const int *array, size_t size)
 {
+<<<<<<< HEAD
 size_t i;
 
 i = 0;
@@ -20,4 +21,17 @@ printf("%d", array[i]);
 ++i;
 }
 printf("\n");
+=======
+    size_t i;
+
+    i = 0;
+    while (array && i < size)
+    {
+        if (i > 0)
+            printf(", ");
+        printf("%d", array[i]);
+        ++i;
+    }
+    printf("\n");
+>>>>>>> 03761b420da5b92fd3be8768669bc6980cac9d81
 }
