@@ -16,4 +16,4 @@ oclean:
 fclean:
 	$(RM) *~ $(NAME)
 	$(RM) $(OBJ)
-re: ocean all
+re: oclean all
